@@ -1,0 +1,58 @@
+.News{
+	height: 400px;
+	width: 100%;
+	/*background-color: red;*/
+}
+
+.cont p{
+	color: #d04f44;
+	font-size: 22px;
+    text-align: center;
+}
+
+.cont h3{
+	font-size: 14px;
+	text-transform: capitalize;
+
+    /*text-align: center;*/
+
+}
+
+.cont a{	
+	font-size: 20px;
+    text-align: center;
+    /*color: white;*/
+}
+
+.cont{
+	/*background-color: black;*/
+}
+
+.zoom img{
+  transition: all 0.3s;
+  width: 100%;
+}
+
+.zoombig{
+  overflow: hidden;
+}
+
+.zoombig:hover img{
+  transform: scale(1.08);
+}
+
+.MainHeader .card{
+	height: 400px;
+}
+.MainHeader .card:hover{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+}
+
+.MidHeader{
+	width: 100%;
+	height: 100%;
+}
+
+.Top{
+	background-color: red;
+}
